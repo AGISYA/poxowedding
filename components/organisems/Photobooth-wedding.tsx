@@ -9,11 +9,11 @@ export default function PhotoboothWedding() {
         </h1>
         <div className="flex justify-center mb-4">
           <Image
-            src="/images/1.jpg"
+            src="/images/fotoboot.png"
             alt="Group of people posing in a photobooth at a wedding"
-            className="rounded-lg shadow-lg"
-            height={200}
-            width={300}
+            className="rounded-lg "
+            height={1000}
+            width={1000}
           />
         </div>
         <p className="text-lg text-black italic">

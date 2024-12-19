@@ -59,22 +59,22 @@ export default function DokumentasiPrewedding() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               <Image
                 alt="Wedding scene with balloons in the sky"
-                className="w-80 h-40 md:h-48 object-cover rounded-lg mx-10 shadow-lg"
-                src="/images/1.jpg"
+                className="w-96 h-60 md:h-48 object-cover rounded-lg mx-10 "
+                src="/images/wedding1.png"
                 width={1000}
                 height={1000}
               />
               <Image
                 alt="Wedding procession in a decorated hallway"
-                className="w-80 h-40 md:h-48 object-cover rounded-lg mx-10 shadow-lg"
-                src="/images/2.jpg"
+                className="w-96 h-60 md:h-48 object-cover rounded-lg mx-10 "
+                src="/images/wedding2.png"
                 width={1000}
                 height={1000}
               />
               <Image
                 alt="Bride standing in a beautifully lit room"
-                className="w-80 h-40 md:h-48 object-cover rounded-lg mx-10 shadow-lg"
-                src="/images/3.jpg"
+                className="w-96 h-60 md:h-48 object-cover rounded-lg mx-10 "
+                src="/images/wedding3.png"
                 width={1000}
                 height={1000}
               />

@@ -7,7 +7,7 @@ export default function Hero() {
       <section className="relative h-screen w-full">
         {/* Background Image */}
         <Image
-          src="/images/1.jpg" // Ganti dengan path gambar di folder public
+          src="/images/bg1.png" // Ganti dengan path gambar di folder public
           alt="Hero Image"
           layout="fill" // Memastikan gambar memenuhi seluruh area
           objectFit="cover" // Menjaga rasio gambar
@@ -19,7 +19,7 @@ export default function Hero() {
           {/* Logo */}
           <div className="mb-6 mt-10">
             <Image
-              src="/images/2.jpg"
+              src="/images/logo.png"
               alt="Logo Wedding"
               width={120}
               height={120}

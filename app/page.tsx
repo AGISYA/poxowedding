@@ -42,7 +42,7 @@ export default function Home() {
       {/* Navbar */}
       <nav
         className={`fixed w-full top-0 z-50 transition-all ${
-          isScrolled ? "bg-black" : "bg-transparent"
+          isScrolled ? "bg-amber-800 " : "bg-transparent"
         }`}
       >
         <div className="container mx-auto flex justify-between items-center p-4">
@@ -79,7 +79,7 @@ export default function Home() {
         {isMenuOpen && (
           <div
             className={`md:hidden p-4 transition-all ${
-              isScrolled ? "bg-black" : "bg-transparent"
+              isScrolled ? "bg-amber-800 opacity-50" : "bg-transparent"
             } text-white`}
           >
             <ul>
