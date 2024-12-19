@@ -15,7 +15,7 @@ export default function Garansi() {
             <div className="mb-4">
               <Image
                 alt="News article about lost wedding photos"
-                className="w-full max-w-full h-auto"
+                className="w-96 max-w-full h-auto"
                 height="300"
                 src="/images/1.jpg"
                 width="400"
@@ -45,7 +45,7 @@ export default function Garansi() {
               <div className="w-full p-2">
                 <Image
                   alt="Wedding photo with satisfied customers"
-                  className="w-full max-w-full h-auto rounded-lg"
+                  className="w-96 max-w-full h-auto rounded-lg"
                   height="300"
                   src="/images/1.jpg"
                   width="400"

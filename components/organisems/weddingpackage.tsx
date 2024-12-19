@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function WeddingPackage() {
   return (
@@ -14,36 +15,13 @@ export default function WeddingPackage() {
       <div className="container mx-auto p-4">
         {/* Section Header dengan label FREE dan All In */}
         <div className="text-center relative">
-          {/* Label FREE */}
-          <div className="absolute top-[75px] left-[500px] flex items-center ">
-            <div className="bg-yellow-400 text-black font-bold px-4 py-1 rounded-full shadow-lg rotate-[-10deg] ">
-              FREE!!!
-            </div>
-          </div>
-
-          {/* Label All In */}
-          <div className="absolute top-[75px] right-96 left-[900px] flex items-center">
-            <div className="bg-red-500 text-white font-bold px-4 py-1 rounded-full shadow-lg rotate-[10deg]">
-              All In !!!
-            </div>
-          </div>
-
-          {/* Judul dan Paket */}
-          <h1 className="text-5xl font-bold">Wedding Rp6.000.000</h1>
-          <div className="flex justify-center items-center space-x-4 mt-16">
-            <div className="border-2 border-black rounded-full px-4 py-1 relative">
-              <span className="text-red-500 text-xl font-bold">Prewedding</span>
-            </div>
-            <span className="text-2xl font-bold">+</span>
-            <div className="border-2 border-black rounded-full px-4 py-1">
-              <span className="text-red-500 text-xl font-bold">Photobooth</span>
-            </div>
-          </div>
-          <div className="mt-4">
-            <div className="bg-blue-500 text-white font-bold px-4 py-1 rounded-full shadow-lg inline-block">
-              Khusus Bulan Ini!
-            </div>
-          </div>
+          <Image
+            alt="News article about lost wedding photos"
+            className="w-96 max-w-full h-auto mx-auto"
+            height="300"
+            src="/images/pricepromo.png"
+            width="400"
+          />
         </div>
 
         {/* Section Paket Wedding, Prewedding, dan Photobooth */}
