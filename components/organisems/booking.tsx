@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Booking() {
   return (
@@ -22,8 +23,8 @@ export default function Booking() {
             <span className="font-bold">sampai hari besok!</span>
           </p>
           <div className="mt-4">
-            <img
-              src="https://storage.googleapis.com/a1aa/image/a9TAOptsO8qRJ92NCx0Rv6wm4n7Tr2TeKusoueb6DKaC5f3nA.jpg"
+            <Image
+              src="/images/1.jpg"
               alt="Hands holding a 100,000 Indonesian Rupiah note"
               className="mx-auto"
               width="300"

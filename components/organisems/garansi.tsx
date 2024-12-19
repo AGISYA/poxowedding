@@ -1,5 +1,7 @@
 // import Head from "next/head";
 
+import Image from "next/image";
+
 export default function Garansi() {
   return (
     <div className="bg-white text-black">
@@ -11,11 +13,11 @@ export default function Garansi() {
               GARANSI KEAMANAN
             </h1>
             <div className="mb-4">
-              <img
+              <Image
                 alt="News article about lost wedding photos"
                 className="w-full max-w-full h-auto"
                 height="300"
-                src="https://storage.googleapis.com/a1aa/image/tJvHyIhvP0KIKZbF7eXLF4IIJvtU0e0k2ySueRn5EtueQBvPB.jpg"
+                src="/images/1.jpg"
                 width="400"
               />
             </div>
@@ -41,11 +43,11 @@ export default function Garansi() {
             </h1>
             <div className="flex flex-wrap justify-center">
               <div className="w-full p-2">
-                <img
+                <Image
                   alt="Wedding photo with satisfied customers"
                   className="w-full max-w-full h-auto rounded-lg"
                   height="300"
-                  src="https://storage.googleapis.com/a1aa/image/2LBsibl58fXEBCkwsRNWhNroJpnH3BCcY1dsfmtGpKpRUw7TA.jpg"
+                  src="/images/1.jpg"
                   width="400"
                 />
               </div>
